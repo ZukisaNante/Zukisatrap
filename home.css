@@ -1,3 +1,5 @@
+.grid-container *{
+    box-sizing: border-box;}
 .grid-container{
     width: 100%; 
     max-width: 1200px;      
@@ -17,7 +19,7 @@
     width: 16.66%; 
     /*-- our gutter -- */
     padding: 12px; 
-    background-color: #FFDCDC;
+    background-color: blue;
 }
 
 .col-1{ width: 16.66%; }
@@ -28,12 +30,12 @@
 .col-6{ width: 100%;   }
 
 .outline, .outline *{
-    outline: 1px solid #F6A1A1; 
+    outline: 1px solid rgb(161, 246, 165); 
 }
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
- background-color: #FFC2C2; 
+ background-color: rgba(194, 213, 255, 0.658); 
  padding: 0;
  margin: 0;
  text-align: center; 
