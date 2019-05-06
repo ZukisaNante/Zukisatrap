@@ -19,7 +19,7 @@
     background-color: #D4312D;
 }
 .btn-twitter:hover{
-    opacity: 1;
+    background-color: #D4312D;
     text-decoration: none;
-    color: #808080;
+    color: white;
 }
