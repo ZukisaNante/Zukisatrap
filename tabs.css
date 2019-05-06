@@ -23,3 +23,7 @@ opacity: 0.8;
 .tabs-item:last-child{
     border-radius: 0 10px 0 0;
 }
+.tabs-item.active{
+    backface-visibility: white;
+    color: black;
+}
