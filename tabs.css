@@ -17,3 +17,6 @@ opacity: 0.8;
     background: #756A66;
     text-align: center;
 }
+.tabs-item:first-child{
+    border-radius: 10px 0 0 0;
+}
