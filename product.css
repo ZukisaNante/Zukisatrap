@@ -1,0 +1,11 @@
+.product{
+    display: flex;
+    align-items: center;
+}
+.product-description{
+    flex: 1 0 auto;
+}
+.product-upvotes{
+    text-align: center;
+    padding: 10px;
+}
