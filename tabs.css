@@ -24,6 +24,6 @@ opacity: 0.8;
     border-radius: 0 10px 0 0;
 }
 .tabs-item.active{
-    backface-visibility: white;
+    background: white;
     color: black;
 }
