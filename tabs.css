@@ -2,6 +2,7 @@
     background: #534540;
     color: white;
     padding: 10px 10px 0 10px;
+    display: flex;
 }
 .tabs h3{
     font-weight: bold;
@@ -10,4 +11,7 @@
 .tabs p{
 font-weight: lighter;
 opacity: 0.8;
+}
+.tabs-item{
+    flex: 1 0 auto;
 }
