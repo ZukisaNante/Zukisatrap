@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="avatar.html">Avatar</a>
+  <a href="banner.html">Banner</a>
+  <a href="badge.html">Badge</a>
+  <a href="dropdown.html">Dropdown</a>
+  <a href="card.html">Card</a>
+  <a href="button.html">Button</a>
+  <a href="tabs.html">Tabs</a>
+  <a href="product.html">Product</a>
+  <a href="form.html">Form</a>
+</div>
+
+<div id="main">
+    <div class="container">
+        <h1 class="text-center">UI Elements</h1>
+        <h2>Product Design</h2>
+        <div class="product">
+          <i class="fa fa-caret-up"></i>
+          <p>34</p>
+            <div class="product-upvotes"></div>
+            <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+            <div class="product-description">
+            <h3>Intercom</h3>
+            <p>Zukisa</p>
+            <ul class="list-inline product-controls">
+                <li><a href=""><i class="fa fa-heart"></i></a></li>
+                <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                <li><a href=""><i class="fa fa-star"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="product">
+              <i class="fa fa-caret-up"></i>
+              <p>34</p>
+                <div class="product-upvotes"></div>
+                <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+                <div class="product-description">
+                <h3>Intercom</h3>
+                <p>Zukisa</p>
+                <ul class="list-inline product-controls">
+                    <li><a href=""><i class="fa fa-heart"></i></a></li>
+                    <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                    <li><a href=""><i class="fa fa-star"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="product">
+                  <i class="fa fa-caret-up"></i>
+                  <p>34</p>
+                    <div class="product-upvotes"></div>
+                    <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+                    <div class="product-description">
+                    <h3>Intercom</h3>
+                    <p>Zukisa</p>
+                    <ul class="list-inline product-controls">
+                        <li><a href=""><i class="fa fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                        <li><a href=""><i class="fa fa-star"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+    </div>
+</div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html> 
+
+
+

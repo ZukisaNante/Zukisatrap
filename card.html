@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="avatar.html">Avatar</a>
+  <a href="banner.html">Banner</a>
+  <a href="badge.html">Badge</a>
+  <a href="dropdown.html">Dropdown</a>
+  <a href="card.html">Card</a>
+  <a href="button.html">Button</a>
+  <a href="tabs.html">Tabs</a>
+  <a href="product.html">Product</a>
+  <a href="form.html">Form</a>
+</div>
+
+<div id="main">
+    <div class="container">
+        <h1 class="text-center">UI Elements</h1>
+        <h2>Card Design</h2>
+        <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                                <span class="card-category">POPULAR</span>
+                                <div class="card-description">
+                                    <h3>Stripe</h3>
+                                    <p>A cool mayment API</p>
+                                </div>
+                                <img src="zukisa.jpeg" width="50" height="50"alt="" class="avatar-small card-image">
+                            </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                                <span class="card-category">POPULAR</span>
+                                <div class="card-description">
+                                    <h3>Stripe</h3>
+                                    <p>A cool mayment API</p>
+                                </div>
+                                <img src="zukisa.jpeg" width="50" height="50" alt="" class="avatar-small card-image">
+                            </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                                <span class="card-category">POPULAR</span>
+                                <div class="card-description">
+                                    <h3>Stripe</h3>
+                                    <p>A cool payment API</p>
+                                </div>
+                                <img src="zukisa.jpeg" alt="" class="avatar-small card-image">
+                        </div>
+                </div>
+            </div>
+        </div>
+</div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+</body>
+</html> 
+
+
+

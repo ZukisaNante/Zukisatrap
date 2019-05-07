@@ -6,75 +6,166 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!--First Containder (Card-Deck)-->
         <div class="container">
-            <h1>Creating Grid using Card Deck from bootstrap</h1>
-            <div class="card-deck">
-                <div class="card bg-primary">
-                    <div class="card-body text-center">
-                        <h2>Image Text Btn</h2>
-                        <p>Here we put a round image and try to make it a background with text</p>
-                    </div>
-                </div>
-            <div class="card bg-warning">
-                <div class="card-body text-center">
-                    <h2>Login form</h2>
-                    <p>Here we style, btn, textbox, form</p>
-                </div>
-            </div>
-            <div class="card bg-success">
-                <div class="card-body text-center">
-                    <h2>Different Buttons</h2>
-                    <p>Here create all kinds and shapes of buttons</p>
-                </div>
-            </div>
-            <div class="card bg-danger">
-                <div class="card-body text-center">
-                    <h2>Extra Activities</h2>
-                    <p>See what else to put</p>
-                </div>
-            </div>
-            
+            <h1 class="text-center">UI Elements</h1>
+            <h2>Avatar Design</h2>
+            <img src="zukisa.jpeg" alt="" class="avatar">
+            <img src="zukisa.jpeg" alt="" class="avatar-small">
 
+            <h2>Button Design</h2>
+            <a href="#" class="btn-medium">Write stories</a>
+            <a href="#" class="btn-twitter">Write Now</a>
+
+            <h2>Dropdown Design</h2>
+            <div class="dropdown">
+                <img src="zukisa.jpeg" alt="" class="avatar" id="navbar-menu" data-toggle="dropdown">
+                <div class="dropdown-menu" aria-labelledby="navbar-menu">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Dashboard</a>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            
             </div>
-        </div>
-        <!--Second Containder (Card-Deck)-->
-        <div class="container">
-                <h1>Creating Grid using Card Deck from bootstrap</h1>
-                <div class="card-deck">
-                    <div class="card bg-primary">
-                        <div class="card-body text-center">
-                            <h2>Image Text Btn</h2>
-                            <p>Here we put a round image and try to make it a background with text</p>
+                <h2>Card Design</h2>
+                <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                                <div class="card">
+                                        <span class="card-category">POPULAR</span>
+                                        <div class="card-description">
+                                            <h3>Stripe</h3>
+                                            <p>A cool mayment API</p>
+                                        </div>
+                                        <img src="zukisa.jpeg" width="50" height="50"alt="" class="avatar-small card-image">
+                                    </div>
                         </div>
-                    </div>
-               <!-- <div class="card bg-warning">
-                    <div class="card-body text-center">
-                        <h2>Login form</h2>
-                        <p>Here we style, btn, textbox, form</p>
-                    </div>
-                </div>
-                <div class="card bg-success">
-                    <div class="card-body text-center">
-                        <h2>Different Buttons</h2>
-                        <p>Here create all kinds and shapes of buttons</p>
-                    </div>
-                </div>
-                <div class="card bg-danger">
-                    <div class="card-body text-center">
-                        <h2>Extra Activities</h2>
-                        <p>See what else to put</p>
-                    </div>
-                </div>-->
-                
-    
-                </div>
+                        <div class="col-xs-12 col-sm-4">
+                                <div class="card">
+                                        <span class="card-category">POPULAR</span>
+                                        <div class="card-description">
+                                            <h3>Stripe</h3>
+                                            <p>A cool mayment API</p>
+                                        </div>
+                                        <img src="zukisa.jpeg" width="50" height="50" alt="" class="avatar-small card-image">
+                                    </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                                <div class="card">
+                                        <span class="card-category">POPULAR</span>
+                                        <div class="card-description">
+                                            <h3>Stripe</h3>
+                                            <p>A cool payment API</p>
+                                        </div>
+                                        <img src="zukisa.jpeg" alt="" class="avatar-small card-image">
+                                </div>
+                        </div>
             </div>
+       
+
+              <h2>Badge Image</h2>
+              <img src="zukisa.jpeg" alt="" class="avatar">
+              <span class="badge">4</span>
+
+              <h2>Banner Design</h2>
+              <div class="banner">
+                  <div class="banner-content">
+                      <h1>Stripe</h1>
+                      <p>A cool payment API </p>
+                      <a href="#" class="btn-twitter">Write Now</a>
+                  </div>
+              </div>
+
+              <h2>Tabs Design</h2>
+              <div class="tabs">
+                  <div class="tabs-item active">
+                        <h3>75</h3>
+                        <p>Zukisa</p>
+                  </div>
+                  <div class="tabs-item">
+                        <h3>75</h3>
+                        <p>Zukisa</p>
+                  </div>
+                  <div class="tabs-item">
+                      <h>75</h3>
+                        <p>Zukisa</p>
+                  </div>
+                  <div class="tabs-item">
+                    <h3>75</h3>
+                    <p>Zukisa</p>
+                  </div>
+              </div>
+              <h2>Product Design</h2>
+              <div class="product">
+                <i class="fa fa-caret-up"></i>
+                <p>34</p>
+                  <div class="product-upvotes"></div>
+                  <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+                  <div class="product-description">
+                  <h3>Intercom</h3>
+                  <p>Zukisa</p>
+                  <ul class="list-inline product-controls">
+                      <li><a href=""><i class="fa fa-heart"></i></a></li>
+                      <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                      <li><a href=""><i class="fa fa-star"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product">
+                    <i class="fa fa-caret-up"></i>
+                    <p>34</p>
+                      <div class="product-upvotes"></div>
+                      <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+                      <div class="product-description">
+                      <h3>Intercom</h3>
+                      <p>Zukisa</p>
+                      <ul class="list-inline product-controls">
+                          <li><a href=""><i class="fa fa-heart"></i></a></li>
+                          <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                          <li><a href=""><i class="fa fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product">
+                        <i class="fa fa-caret-up"></i>
+                        <p>34</p>
+                          <div class="product-upvotes"></div>
+                          <img src="zukisa.jpeg" width="100" height="150" alt="" class="product-image img-rounded">
+                          <div class="product-description">
+                          <h3>Intercom</h3>
+                          <p>Zukisa</p>
+                          <ul class="list-inline product-controls">
+                              <li><a href=""><i class="fa fa-heart"></i></a></li>
+                              <li><a href=""><i class="fa fa-share"></a><i></a></li>
+                              <li><a href=""><i class="fa fa-star"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <h2>Vertical (basic) form</h2>
+                      <form action="/action_page.php">
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+                      
+        </div>
+    
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>
+        

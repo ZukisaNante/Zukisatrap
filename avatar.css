@@ -1,8 +1,10 @@
 .avatar{
     border-radius: 50%;
-    width: 50px;
+    width: 100px;
+    border: 1px dashed;
 }
 .avatar-small{
     border-radius: 50%;
-    width: 30px;
+    width: 85px;
+    border: 1px solid;
 }
