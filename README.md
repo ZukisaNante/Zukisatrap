@@ -8,7 +8,7 @@ https://zukisanante.github.io/Zukisatrap/
 ### -Avatar shows different types of image styling.
 ### -Dropdown shows different tabs format
 ### -Card shows Grid
-### -Badge shows linked images
+### -Badges are numerical indicators of how many items are associated with a link
 ### -Product shows different styles of product creation
 
 ## Advantages of my Trap
